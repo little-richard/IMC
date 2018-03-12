@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "197546136802",
+    "firebase_url": "https://imcapp-362e4.firebaseio.com",
+    "project_id": "imcapp-362e4",
+    "storage_bucket": "imcapp-362e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197546136802:android:b1c4e44d4a925640",
+        "android_client_info": {
+          "package_name": "com.ricardomendes.imc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197546136802-hlert2redv799sifcv6qnfmofsvjfsc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgjAl8CnI1rSE0zg9onyDroa3zsPlScDQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

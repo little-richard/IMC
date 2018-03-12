@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="user">E-mail</string>
+    <string name="pass">Senha</string>
+    <string name="btacessar">Acessar</string>
+    <string name="msgcadastrar">Não tem uma conta?</string>
+    <string name="cadastre">Cadastre-se</string>
+    <string name="nome">Nome</string>
+    <string name="datanasc">Data de nascimento</string>
+    <string name="confpass">Confirmar Senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+</resources>
