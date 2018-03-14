@@ -62,7 +62,7 @@ public class Imc {
     private void calcularImc(String altura, String peso){
         double a = Double.parseDouble(altura);
         double p = Double.parseDouble(peso);
-        imc = a / (pow(p, 2));
+        imc = p / (pow(a, 2));
     }
     public double getImc(){
         return imc;
