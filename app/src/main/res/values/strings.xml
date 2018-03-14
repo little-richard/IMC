@@ -11,4 +11,5 @@
     <string name="cadastrar">Cadastrar</string>
     <string name="altura">Altura</string>
     <string name="peso">Peso</string>
+    <string name="resultIm">Seu Imc:</string>
 </resources>

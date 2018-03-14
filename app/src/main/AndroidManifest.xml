@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.CadastrarActivity" />
-        <activity android:name=".Activity.PrincipalActivity" />
         <activity android:name=".Activity.CalculoImc"></activity>
     </application>
 

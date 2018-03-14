@@ -20,9 +20,7 @@ public class CalculoImc extends AppCompatActivity {
     private EditText edtPeso;
     private Button btCalcular;
     private Imc imc;
-    private double altura, peso;
     private FirebaseUser user;
-    public String i1 = "0";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,12 +31,14 @@ public class CalculoImc extends AppCompatActivity {
         btCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
            public void onClick(View view) {
-                TextView teste = (TextView) findViewById(R.id.teste);
+                TextView result = (TextView) findViewById(R.id.resultImc);
                 user = FirebaseAuth.getInstance().getCurrentUser();
                 if(user != null){
-                    teste.setText(user.getEmail());
+                    imc = new Imc(edtAltura.getText().toString(), edtPeso.getText().toString());
+                    double resultImc = imc.getImc();
+                    result.setText("Seu Imc: " + resultImc);
                 }else{
-                    teste.setText("nulo");
+                    result.setText("Não há usuário logado!");
                 }
             }
         });
